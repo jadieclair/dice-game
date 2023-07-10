@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+header h4 {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.container h1 {
+  color: #fff;
+}
+
+body {
+  /* background: linear-gradient(to bottom, #ff512f, #dd2476); */
+  background-image: url("https://i.postimg.cc/7hZ1BkWC/cube-gc66073371-1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  overflow: none;
+}
+
+.Player1s,
+.Player2s {
+  font-size: 1rem !important;
+  color: white;
+  border-bottom: 1px solid grey;
+  background: linear-gradient(to bottom, #9b96959c, #2b191985);
+}
+
+.player1-score,
+.player2-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 5px;
+}
+.Player1s,
+.Player2s,
+.player1-score,
+.player2-score {
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #fff;
+  background: linear-gradient(to bottom, #9b96959c, #2b191985);
+  box-shadow: black 0px 10px 10px;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  text-shadow: #9b96959c 0px 0px 20px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+h2 {
+  margin: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px #000000;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.box {
+  background-color: #fff;
+  background: linear-gradient(to bottom, #9b96959c, #2b191985);
+  border-radius: 70px;
+  box-shadow: black 0px 10px 10px;
+  margin: 60px;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  width: 100%;
+}
+
+.container-bottom {
+  padding-bottom: 30px;
+}
+
+.btn {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #9b96959c, #2b191985);
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  border: 0.1rem solid white;
+}
+
+.btn:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.even-roll {
+  transition: transform 1.5s ease-out;
+}
+
+.odd-roll {
+  transition: transform 1.25s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .dice {
+    margin: 0 20px;
+  }
+
+  .btn {
+    font-size: 24px;
+    padding: 12px 20px;
+  }
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: white;
+  padding: 1rem;
+}

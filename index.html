@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Dice Game</title>
+  </head>
+
+  <body>
+    <header>
+      <h4>score:</h4>
+      <p class="Player1s">Player 1</p>
+      <div class="player1-score">0</div>
+      <p class="Player2s">Player 2</p>
+      <div class="player2-score">0</div>
+    </header>
+
+    <div class="container">
+      <h1>Let's Play Some Dice!</h1>
+
+      <div class="box">
+        <div class="dice">
+          <p class="Player1">Player 1</p>
+          <img src="dice6.png" alt="dice 6" class="img1" />
+        </div>
+        <div class="dice">
+          <p class="Player2">Player 2</p>
+          <img src="dice6.png" alt="dice 6" class="img2" />
+        </div>
+
+        <div class="container bottom">
+          <button type="button" id="play" class="btn" onclick="rollTheDice()">
+            Roll The Dice
+          </button>
+        </div>
+        <div class="container-bottom">
+          <button type="button" class="btn" onclick="editNames()">
+            Change Players Names
+          </button>
+          <h3>Best of three games, the highest score wins...</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
